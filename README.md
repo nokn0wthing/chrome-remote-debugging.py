@@ -3,7 +3,7 @@ Script to take advantage of headless chrome session to retrieve a specified file
 
 Usage
 ```
-python chrome-remote-debugging.py <remote ip> <debugging port> /etc/passwd
+python chrome-remote-debugging.py <remote ip> <debugging port> <file path>
 python chrome-remote-debugging.py 10.10.10.100 50000 /etc/passwd
 ```
 
