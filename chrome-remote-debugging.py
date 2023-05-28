@@ -13,7 +13,7 @@ target = sys.argv[1]
 port = sys.argv[2]
 file_path = sys.argv[3]
 
-print("(+) Retrieving webscoket debugger url ")
+print("(+) Retrieving websocket debugger url ")
 r = requests.get("http://%s:%s/json" % (target, port))
 link = r.json()[0]['webSocketDebuggerUrl']
 request_id = random.randint(1, 1000000)
